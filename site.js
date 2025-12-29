@@ -127,9 +127,9 @@ function wireSearch(all){
 }
 
 function setupPlaceholders(){
-  const invite = '#';   // <-- metti qui il tuo link di invito
-  const support = '#';  // <-- metti qui il link del tuo server supporto
-  const github = '#';   // <-- metti qui il link al repo
+  const invite = 'https://discord.com/oauth2/authorize?client_id=1305192295590789130&permissions=8&integration_type=0&scope=bot+applications.commands';   // <-- metti qui il tuo link di invito
+  const support = 'https://discord.gg/3s23xJFj2P';  // <-- metti qui il link del tuo server supporto
+  const github = 'https://vitrio14.github.io/vitrio-bot-docs/';   // <-- metti qui il link al repo
 
   const inviteBtn = document.getElementById('inviteBtn');
   const inviteBtn2 = document.getElementById('inviteBtn2');
