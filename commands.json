@@ -1,0 +1,284 @@
+[
+  {
+    "category": "community",
+    "name": "invites",
+    "description": "Sistema inviti",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devcoins",
+    "description": "Comando sviluppatore per modificare i coins degli utenti",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devreset",
+    "description": "Developer: resetta economia e livelli",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devrole",
+    "description": "Developer: assegna ruoli premium di test",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devshop",
+    "description": "Developer: aggiunge item allo shop senza JSON",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devxp",
+    "description": "Developer: gestisce XP e livelli di un utente",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "givemeall",
+    "description": "TI dà tutto. Solo per il proprietario.",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "test-boost",
+    "description": "Test embed boost",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "test-leave",
+    "description": "Test embed uscita",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "test-welcome",
+    "description": "Test embed welcome (solo admin)",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "balance",
+    "description": "Mostra il tuo saldo o di un utente",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "blackjack",
+    "description": "Gioca a blackjack",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "coinflip",
+    "description": "Scommetti sui coins",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "daily",
+    "description": "Riscatta la ricompensa giornaliera",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "inventory",
+    "description": "Mostra il tuo inventario",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "pay",
+    "description": "Invia coins a un altro utente",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "quest",
+    "description": "Missioni giornaliere e settimanali",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "shop",
+    "description": "Gestisce o mostra lo shop",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "slots",
+    "description": "Gioca alla slot machine",
+    "options": []
+  },
+  {
+    "category": "fun",
+    "name": "dice",
+    "description": "Lancia un dado 1-6",
+    "options": []
+  },
+  {
+    "category": "giveaways",
+    "name": "giveaway",
+    "description": "Crea un semplice giveaway (reazione 🎉)",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "leaderboard",
+    "description": "Mostra la classifica dei livelli",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "levelrole",
+    "description": "Imposta o rimuovi un ruolo ricompensa per un livello",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "levelroles",
+    "description": "Mostra tutti i ruoli ricompensa configurati",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "rank",
+    "description": "Mostra il tuo livello",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "ban",
+    "description": "Banna un utente",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "clear",
+    "description": "Cancella un numero di messaggi",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "kick",
+    "description": "Espelli un utente",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "warn",
+    "description": "Aggiunge un warn a un utente",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "warns",
+    "description": "Mostra i warn di un utente",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "nowplaying",
+    "description": "Mostra la traccia in riproduzione",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "pause",
+    "description": "Mette in pausa la musica",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "play",
+    "description": "Riproduce una canzone",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "queue",
+    "description": "Mostra la coda musicale",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "resume",
+    "description": "Riprende la musica",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "seek",
+    "description": "Vai a un punto specifico della traccia (mm:ss)",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "shuffle",
+    "description": "Mescola la queue",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "skip",
+    "description": "Salta la traccia corrente",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "volume",
+    "description": "Gestisce il volume del player",
+    "options": []
+  },
+  {
+    "category": "tickets",
+    "name": "ticket",
+    "description": "Gestione ticket",
+    "options": []
+  },
+  {
+    "category": "tickets",
+    "name": "ticket-panel",
+    "description": "Crea il pannello per aprire ticket",
+    "options": []
+  },
+  {
+    "category": "twitch",
+    "name": "link",
+    "description": "Collega account esterni al tuo profilo Discord",
+    "options": []
+  },
+  {
+    "category": "twitch",
+    "name": "live",
+    "description": "Mostra lo stato della live Twitch",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "avatar",
+    "description": "Mostra il tuo avatar o quello di un utente",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "embed",
+    "description": "Invia un embed personalizzato nel canale",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "ping",
+    "description": "Mostra il ping del bot",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "setup-verifica",
+    "description": "Invia il messaggio di verifica con bottone",
+    "options": []
+  }
+]

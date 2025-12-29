@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VitriO_TTV • Discord Bot</title>
+  <meta name="description" content="VitriO_TTV Bot: moderazione, economia, musica, fun e strumenti per streamer. Guida semplice e comandi." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top">
+      <img src="assets/logo.png" alt="Logo VitriO_TTV" />
+      <span>VitriO_TTV Bot</span>
+    </a>
+    <nav class="nav">
+      <a href="#cosa-fa">Cosa fa</a>
+      <a href="#guida">Guida</a>
+      <a href="#comandi">Comandi</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="cta">
+      <a class="btn ghost" href="#comandi">Vedi i comandi</a>
+      <a class="btn" href="#" id="inviteBtn" title="Inserisci qui il link di invito del tuo bot">Invita il bot</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media">
+        <img class="banner" src="assets/banner.png" alt="Banner VitriO_TTV" />
+      </div>
+
+      <div class="hero-copy">
+        <p class="pill">LIVE • GAMING • FUNNY</p>
+        <h1>Il bot Discord per <span class="grad">community gaming</span>, <span class="grad2">streaming</span> e <span class="grad">divertimento</span>.</h1>
+        <p class="sub">
+          VitriO_TTV è un bot “tutto in uno”: moderazione semplice, economia (coins), livelli, musica, giveaway e comandi fun.
+          Qui trovi una guida in parole povere + la lista completa dei comandi.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#guida">Inizia da qui</a>
+          <a class="btn ghost" href="#comandi">Scopri i comandi</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num" id="cmdCount">—</div>
+            <div class="stat-label">comandi disponibili</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" id="catCount">—</div>
+            <div class="stat-label">categorie</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Slash</div>
+            <div class="stat-label">/commands</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cosa-fa" class="section">
+      <h2>Cosa fa il bot</h2>
+      <p class="lead">Le cose principali, spiegate semplici. (Poi sotto trovi tutto nel dettaglio.)</p>
+
+      <div class="grid cards">
+        <article class="card">
+          <h3>🛡️ Moderazione</h3>
+          <p>Kick/ban, gestione warning, log e utility per tenere il server pulito senza impazzire.</p>
+        </article>
+        <article class="card">
+          <h3>💰 Economia & Shop</h3>
+          <p>Coins, daily, giochi (slot/coinflip/blackjack) e inventario. Perfetto per far giocare la community.</p>
+        </article>
+        <article class="card">
+          <h3>🎵 Musica</h3>
+          <p>Comandi musica con Lavalink: play, skip, queue, stop… per le serate in voce.</p>
+        </article>
+        <article class="card">
+          <h3>📈 Livelli</h3>
+          <p>XP, leaderboard e ruoli livello per premiare chi è attivo.</p>
+        </article>
+        <article class="card">
+          <h3>🎁 Giveaways</h3>
+          <p>Giveaway rapidi e chiari: imposti durata e premio e il bot gestisce tutto.</p>
+        </article>
+        <article class="card">
+          <h3>😂 Fun</h3>
+          <p>Comandi “leggeri” tipo dado e altre chicche per tenere viva la chat.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="guida" class="section">
+      <h2>Guida in parole povere</h2>
+      <p class="lead">Se non vuoi leggere mille pagine: fai così e sei a posto.</p>
+
+      <div class="grid steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Invita il bot</h3>
+          <p>Clicca “Invita il bot” (in alto) e scegli il tuo server.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Prova un comando</h3>
+          <p>Scrivi <code>/help</code> per vedere le categorie e iniziare.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Configura il minimo</h3>
+          <p>Se vuoi, imposta i canali log/ruoli livello: trovi tutto nei comandi di configurazione.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Fai giocare la community</h3>
+          <p>Daily, coinflip, slot e shop: ottimo per tenere la chat attiva senza sforzo.</p>
+        </div>
+      </div>
+
+      <div class="callout">
+        <div>
+          <h3>Tip veloce</h3>
+          <p>Se un comando non funziona, controlla i permessi del bot e del ruolo admin. Il 90% dei problemi è quello.</p>
+        </div>
+        <a class="btn ghost" href="#faq">Vai alle FAQ</a>
+      </div>
+    </section>
+
+    <section id="comandi" class="section">
+      <div class="section-head">
+        <div>
+          <h2>Comandi</h2>
+          <p class="lead">Cerca un comando e clicca per vedere descrizione e opzioni.</p>
+        </div>
+        <div class="searchbox">
+          <input id="search" type="search" placeholder="Cerca: es. /play, daily, giveaway…" autocomplete="off" />
+          <span class="kbd">CTRL /</span>
+        </div>
+      </div>
+
+      <div id="commandsRoot" class="accordion"></div>
+
+      <div class="note">
+        <strong>Nota:</strong> i comandi sono in <em>slash</em> (es. <code>/dice</code>).
+        Se vuoi, puoi rinominare descrizioni e testo del sito in base al tuo stile.
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <h2>FAQ</h2>
+      <div class="faq">
+        <details>
+          <summary>È gratis?</summary>
+          <p>Dipende da come lo usi: di base sì. Se in futuro aggiungi piani premium, aggiorni questa sezione.</p>
+        </details>
+        <details>
+          <summary>Serve configurazione?</summary>
+          <p>No: puoi partire subito. Per avere il massimo, configura log/ruoli/permission nei comandi admin.</p>
+        </details>
+        <details>
+          <summary>Che permessi devo dare?</summary>
+          <p>Minimo: leggere/scrivere, embed, gestire messaggi (se usi moderazione) e parlare in voce (per musica).</p>
+        </details>
+        <details>
+          <summary>Come chiedo supporto?</summary>
+          <p>Aggiungi qui il link del tuo server supporto o un contatto. (È una cosa che fa subito “bot grande”.)</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section final">
+      <div class="final-card">
+        <div>
+          <h2>Pronto a far salire il livello del server?</h2>
+          <p>Invita VitriO_TTV e prova subito <code>/help</code>.</p>
+        </div>
+        <div class="final-actions">
+          <a class="btn" href="#" id="inviteBtn2">Invita il bot</a>
+          <a class="btn ghost" href="#comandi">Vedi comandi</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Logo" />
+        <div>
+          <div class="footer-title">VitriO_TTV Bot</div>
+          <div class="footer-sub">Made for Discord • Gaming • Stream</div>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#top">Home</a>
+        <a href="#comandi">Comandi</a>
+        <a href="#" id="supportLink" title="Inserisci qui il link di supporto">Supporto</a>
+        <a href="#" id="githubLink" title="Inserisci qui il link GitHub">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
