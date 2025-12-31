@@ -5,6 +5,12 @@
     "description": "Sistema inviti",
     "options": []
   },
+    {
+    "category": "community",
+    "name": "help",
+    "description": "Se hai bisogno di aiuto per ocmandi, funzioni e tanto altro",
+    "options": []
+  },
   {
     "category": "dev",
     "name": "devcoins",
