@@ -8,7 +8,7 @@
     {
     "category": "community",
     "name": "help",
-    "description": "Se hai bisogno di aiuto per ocmandi, funzioni e tanto altro",
+    "description": "Se hai bisogno di aiuto per comandi, funzioni e tanto altro",
     "options": []
   },
   {
@@ -183,6 +183,18 @@
     "category": "moderation",
     "name": "warns",
     "description": "Mostra i warn di un utente",
+    "options": []
+  },
+    {
+    "category": "moderation",
+    "name": "ricorso",
+    "description": "Invia un ricorso per un ban, l'utente dovrà compilare un modulo una volta che ha eseguito il comando",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "assistenza",
+    "description": "Invia un embed per richiedere assistenza ad uno staff del server",
     "options": []
   },
   {
