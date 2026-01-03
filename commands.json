@@ -161,6 +161,12 @@
     "description": "Banna un utente",
     "options": []
   },
+    {
+    "category": "moderation",
+    "name": "listastaff",
+    "description": "Mostra la lista staff del server, specificando. Ruolo - Tag User - Nome Utente",
+    "options": []
+  },
   {
     "category": "moderation",
     "name": "clear",
