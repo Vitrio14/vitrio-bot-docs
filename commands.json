@@ -163,6 +163,24 @@
   },
     {
     "category": "moderation",
+    "name": "bandomod",
+    "description": "Apre un modal per inviare la candidatura come staff twitch, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "bandostaff",
+    "description": "Apre un modal per inviare la candidatura come staff, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
+    "options": []
+  },
+        {
+    "category": "moderation",
+    "name": "bandotwitch",
+    "description": "Apre un modal per inviare la candidatura come streamer partner, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
+    "options": []
+  },
+    {
+    "category": "moderation",
     "name": "listastaff",
     "description": "Mostra la lista staff del server, specificando. Ruolo - Tag User - Nome Utente",
     "options": []
