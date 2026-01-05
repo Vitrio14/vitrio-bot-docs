@@ -163,6 +163,30 @@
   },
     {
     "category": "moderation",
+    "name": "sanzione",
+    "description": "Applica una sanzione a un utente, assegna ruoli e manda un embed nel canale con i dettagli",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "sanziones",
+    "description": "Applica una sanzione a uno staffer, manda un embed nel canale con i dettagli",
+    "options": []
+  },
+        {
+    "category": "moderation",
+    "name": "rimuovisanzione",
+    "description": "Rimuove la sanzione applicata a un utente, rimuove i ruoli e manda un embed nel canale con i dettagli",
+    "options": []
+  },
+          {
+    "category": "moderation",
+    "name": "rimuovisanzionestaff",
+    "description": "Rimuove la sanzione applicata a uno staffer, manda un embed nel canale con i dettagli",
+    "options": []
+  },
+    {
+    "category": "moderation",
     "name": "bandomod",
     "description": "Apre un modal per inviare la candidatura come staff twitch, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
     "options": []
