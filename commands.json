@@ -169,6 +169,12 @@
   },
       {
     "category": "moderation",
+    "name": "assenza",
+    "description": "Registra un assenza staff, mandando un embed nel canale dove si esegue il comando",
+    "options": []
+  },
+      {
+    "category": "moderation",
     "name": "sanziones",
     "description": "Applica una sanzione a uno staffer, manda un embed nel canale con i dettagli",
     "options": []
