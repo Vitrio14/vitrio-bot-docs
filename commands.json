@@ -1,221 +1,368 @@
 [
-  {
-    "category": "community",
-    "name": "invites",
-    "description": "Sistema inviti",
-    "options": []
-  },
-  {
-    "category": "community",
-    "name": "server-stats",
-    "description": "Crea i canali delle statistiche",
-    "options": []
-  },
-    {
-    "category": "community",
-    "name": "twitch-community",
-    "description": "Aggiungi una notifica per le live twitch dei membri. usa twitch-community 'add' per aggiungere, twitch-community 'remove' per rimuovere qualcuno dalla lista e twitch-community 'remove' per rimuovere qualcuno dalla lista",
-    "options": []
-  },
-  {
-    "category": "community",
-    "name": "help",
-    "description": "Se hai bisogno di aiuto per comandi, funzioni e tanto altro",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "devcoins",
-    "description": "Comando sviluppatore per modificare i coins degli utenti",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "devreset",
-    "description": "Developer: resetta economia e livelli",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "devrole",
-    "description": "Developer: assegna ruoli premium di test",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "devshop",
-    "description": "Developer: aggiunge item allo shop senza JSON",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "devxp",
-    "description": "Developer: gestisce XP e livelli di un utente",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "givemeall",
-    "description": "TI dà tutto. Solo per il proprietario.",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "test-boost",
-    "description": "Test embed boost",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "test-leave",
-    "description": "Test embed uscita",
-    "options": []
-  },
-  {
-    "category": "dev",
-    "name": "test-welcome",
-    "description": "Test embed welcome (solo admin)",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "balance",
-    "description": "Mostra il tuo saldo o di un utente",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "blackjack",
-    "description": "Gioca a blackjack",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "coinflip",
-    "description": "Scommetti sui coins",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "daily",
-    "description": "Riscatta la ricompensa giornaliera",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "inventory",
-    "description": "Mostra il tuo inventario",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "pay",
-    "description": "Invia coins a un altro utente",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "quest",
-    "description": "Missioni giornaliere e settimanali",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "shop",
-    "description": "Gestisce o mostra lo shop",
-    "options": []
-  },
-  {
-    "category": "economy",
-    "name": "slots",
-    "description": "Gioca alla slot machine",
-    "options": []
-  },
-  {
-    "category": "fun",
-    "name": "dice",
-    "description": "Lancia un dado 1-6",
-    "options": []
-  },
-  {
-    "category": "giveaways",
-    "name": "giveaway",
-    "description": "Crea un semplice giveaway (reazione 🎉)",
-    "options": []
-  },
-  {
-    "category": "levels",
-    "name": "leaderboard",
-    "description": "Mostra la classifica dei livelli",
-    "options": []
-  },
-  {
-    "category": "levels",
-    "name": "levelrole",
-    "description": "Imposta o rimuovi un ruolo ricompensa per un livello",
-    "options": []
-  },
-  {
-    "category": "levels",
-    "name": "levelroles",
-    "description": "Mostra tutti i ruoli ricompensa configurati",
-    "options": []
-  },
-  {
-    "category": "levels",
-    "name": "rank",
-    "description": "Mostra il tuo livello",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "ban",
-    "description": "Banna un utente",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "sanzione",
-    "description": "Applica una sanzione a un utente, assegna ruoli e manda un embed nel canale con i dettagli",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "assenza",
-    "description": "Registra un assenza staff, mandando un embed nel canale dove si esegue il comando",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "sanziones",
-    "description": "Applica una sanzione a uno staffer, manda un embed nel canale con i dettagli",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "rimuovisanzione",
-    "description": "Rimuove la sanzione applicata a un utente, rimuove i ruoli e manda un embed nel canale con i dettagli",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "rimuovisanzionestaff",
-    "description": "Rimuove la sanzione applicata a uno staffer, manda un embed nel canale con i dettagli",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "bandomod",
-    "description": "Apre un modal per inviare la candidatura come staff twitch, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "bandostaff",
-    "description": "Apre un modal per inviare la candidatura come staff, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
-    "options": []
-  },
-  {
-    "category": "moderation",
-    "name": "bandotwitch",
-    "description": "A
+  {
+    "category": "community",
+    "name": "invites",
+    "description": "Sistema inviti",
+    "options": []
+  },
+      {
+    "category": "community",
+    "name": "server-stats",
+    "description": "Crea i canali delle statistiche",
+    "options": []
+  },
+        {
+    "category": "community",
+    "name": "twitch-community",
+    "description": "Crea i canali delle statistiche",
+    "options": []
+  },
+    {
+    "category": "community",
+    "name": "help",
+    "description": "Se hai bisogno di aiuto per comandi, funzioni e tanto altro",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devcoins",
+    "description": "Comando sviluppatore per modificare i coins degli utenti",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devreset",
+    "description": "Developer: resetta economia e livelli",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devrole",
+    "description": "Developer: assegna ruoli premium di test",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devshop",
+    "description": "Developer: aggiunge item allo shop senza JSON",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "devxp",
+    "description": "Developer: gestisce XP e livelli di un utente",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "givemeall",
+    "description": "TI dà tutto. Solo per il proprietario.",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "test-boost",
+    "description": "Test embed boost",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "test-leave",
+    "description": "Test embed uscita",
+    "options": []
+  },
+  {
+    "category": "dev",
+    "name": "test-welcome",
+    "description": "Test embed welcome (solo admin)",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "balance",
+    "description": "Mostra il tuo saldo o di un utente",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "blackjack",
+    "description": "Gioca a blackjack",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "coinflip",
+    "description": "Scommetti sui coins",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "daily",
+    "description": "Riscatta la ricompensa giornaliera",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "inventory",
+    "description": "Mostra il tuo inventario",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "pay",
+    "description": "Invia coins a un altro utente",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "quest",
+    "description": "Missioni giornaliere e settimanali",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "shop",
+    "description": "Gestisce o mostra lo shop",
+    "options": []
+  },
+  {
+    "category": "economy",
+    "name": "slots",
+    "description": "Gioca alla slot machine",
+    "options": []
+  },
+  {
+    "category": "fun",
+    "name": "dice",
+    "description": "Lancia un dado 1-6",
+    "options": []
+  },
+  {
+    "category": "giveaways",
+    "name": "giveaway",
+    "description": "Crea un semplice giveaway (reazione 🎉)",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "leaderboard",
+    "description": "Mostra la classifica dei livelli",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "levelrole",
+    "description": "Imposta o rimuovi un ruolo ricompensa per un livello",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "levelroles",
+    "description": "Mostra tutti i ruoli ricompensa configurati",
+    "options": []
+  },
+  {
+    "category": "levels",
+    "name": "rank",
+    "description": "Mostra il tuo livello",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "ban",
+    "description": "Banna un utente",
+    "options": []
+  },
+    {
+    "category": "moderation",
+    "name": "sanzione",
+    "description": "Applica una sanzione a un utente, assegna ruoli e manda un embed nel canale con i dettagli",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "assenza",
+    "description": "Registra un assenza staff, mandando un embed nel canale dove si esegue il comando",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "sanziones",
+    "description": "Applica una sanzione a uno staffer, manda un embed nel canale con i dettagli",
+    "options": []
+  },
+        {
+    "category": "moderation",
+    "name": "rimuovisanzione",
+    "description": "Rimuove la sanzione applicata a un utente, rimuove i ruoli e manda un embed nel canale con i dettagli",
+    "options": []
+  },
+          {
+    "category": "moderation",
+    "name": "rimuovisanzionestaff",
+    "description": "Rimuove la sanzione applicata a uno staffer, manda un embed nel canale con i dettagli",
+    "options": []
+  },
+    {
+    "category": "moderation",
+    "name": "bandomod",
+    "description": "Apre un modal per inviare la candidatura come staff twitch, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "bandostaff",
+    "description": "Apre un modal per inviare la candidatura come staff, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
+    "options": []
+  },
+        {
+    "category": "moderation",
+    "name": "bandotwitch",
+    "description": "Apre un modal per inviare la candidatura come streamer partner, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
+    "options": []
+  },
+    {
+    "category": "moderation",
+    "name": "listastaff",
+    "description": "Mostra la lista staff del server, specificando. Ruolo - Tag User - Nome Utente",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "clear",
+    "description": "Cancella un numero di messaggi",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "kick",
+    "description": "Espelli un utente",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "warn",
+    "description": "Aggiunge un warn a un utente",
+    "options": []
+  },
+  {
+    "category": "moderation",
+    "name": "warns",
+    "description": "Mostra i warn di un utente",
+    "options": []
+  },
+    {
+    "category": "moderation",
+    "name": "ricorso",
+    "description": "Invia un ricorso per un ban, l'utente dovrà compilare un modulo una volta che ha eseguito il comando",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "assistenza",
+    "description": "Invia un embed per richiedere assistenza ad uno staff del server",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "nowplaying",
+    "description": "Mostra la traccia in riproduzione",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "pause",
+    "description": "Mette in pausa la musica",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "play",
+    "description": "Riproduce una canzone",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "queue",
+    "description": "Mostra la coda musicale",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "resume",
+    "description": "Riprende la musica",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "seek",
+    "description": "Vai a un punto specifico della traccia (mm:ss)",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "shuffle",
+    "description": "Mescola la queue",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "skip",
+    "description": "Salta la traccia corrente",
+    "options": []
+  },
+  {
+    "category": "music",
+    "name": "volume",
+    "description": "Gestisce il volume del player",
+    "options": []
+  },
+  {
+    "category": "tickets",
+    "name": "ticket",
+    "description": "Gestione ticket",
+    "options": []
+  },
+  {
+    "category": "tickets",
+    "name": "ticket-panel",
+    "description": "Crea il pannello per aprire ticket",
+    "options": []
+  },
+  {
+    "category": "twitch",
+    "name": "link",
+    "description": "Collega account esterni al tuo profilo Discord",
+    "options": []
+  },
+  {
+    "category": "twitch",
+    "name": "live",
+    "description": "Mostra lo stato della live Twitch",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "avatar",
+    "description": "Mostra il tuo avatar o quello di un utente",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "embed",
+    "description": "Invia un embed personalizzato nel canale",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "ping",
+    "description": "Mostra il ping del bot",
+    "options": []
+  },
+  {
+    "category": "utility",
+    "name": "setup-verifica",
+    "description": "Invia il messaggio di verifica con bottone",
+    "options": []
+  }
+]
