@@ -14,7 +14,7 @@
         {
     "category": "community",
     "name": "twitch-community",
-    "description": "Crea i canali delle statistiche",
+    "description": "Aggiungi un utente allo spam live, una volta eseguito il comando ci sarà la possibilità di personalizzare: Nome utente twitch e canale",
     "options": []
   },
     {
