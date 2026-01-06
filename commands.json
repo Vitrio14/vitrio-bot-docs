@@ -23,6 +23,12 @@
     "description": "Aggiunge, rimuove o mostra la lista di utenti registrati nel sistema di notifica live del server",
     "options": []
   },
+        {
+    "category": "community",
+    "name": "server-stats-reset",
+    "description": "Rimuove tutti i canali delle statistiche e pulisce il database",
+    "options": []
+  },
   {
     "category": "dev",
     "name": "devcoins",
