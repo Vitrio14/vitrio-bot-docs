@@ -11,47 +11,11 @@
     "description": "Crea i canali delle statistiche",
     "options": []
   },
-  {
+    {
     "category": "community",
     "name": "twitch-community",
-    "description": "Gestisci le notifiche Twitch della community",
-    "options": [
-      {
-        "name": "add",
-        "description": "Aggiungi uno streamer alla lista community",
-        "options": [
-          {
-            "name": "user",
-            "description": "Username Twitch dello streamer",
-            "type": "STRING",
-            "required": true
-          },
-          {
-            "name": "canale",
-            "description": "Canale dove inviare le notifiche",
-            "type": "CHANNEL",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "remove",
-        "description": "Rimuovi uno streamer dalla lista",
-        "options": [
-          {
-            "name": "user",
-            "description": "Username Twitch dello streamer",
-            "type": "STRING",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "list",
-        "description": "Visualizza tutti gli streamer monitorati",
-        "options": []
-      }
-    ]
+    "description": "Aggiungi una notifica per le live twitch dei membri. usa twitch-community 'add' per aggiungere, twitch-community 'remove' per rimuovere qualcuno dalla lista e twitch-community 'remove' per rimuovere qualcuno dalla lista",
+    "options": []
   },
   {
     "category": "community",
