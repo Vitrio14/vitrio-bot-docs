@@ -5,7 +5,55 @@
     "description": "Sistema inviti",
     "options": []
   },
-    {
+  {
+    "category": "community",
+    "name": "server-stats",
+    "description": "Crea i canali delle statistiche",
+    "options": []
+  },
+  {
+    "category": "community",
+    "name": "twitch-community",
+    "description": "Gestisci le notifiche Twitch della community",
+    "options": [
+      {
+        "name": "add",
+        "description": "Aggiungi uno streamer alla lista community",
+        "options": [
+          {
+            "name": "user",
+            "description": "Username Twitch dello streamer",
+            "type": "STRING",
+            "required": true
+          },
+          {
+            "name": "canale",
+            "description": "Canale dove inviare le notifiche",
+            "type": "CHANNEL",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "remove",
+        "description": "Rimuovi uno streamer dalla lista",
+        "options": [
+          {
+            "name": "user",
+            "description": "Username Twitch dello streamer",
+            "type": "STRING",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list",
+        "description": "Visualizza tutti gli streamer monitorati",
+        "options": []
+      }
+    ]
+  },
+  {
     "category": "community",
     "name": "help",
     "description": "Se hai bisogno di aiuto per comandi, funzioni e tanto altro",
@@ -161,55 +209,55 @@
     "description": "Banna un utente",
     "options": []
   },
-    {
+  {
     "category": "moderation",
     "name": "sanzione",
     "description": "Applica una sanzione a un utente, assegna ruoli e manda un embed nel canale con i dettagli",
     "options": []
   },
-      {
+  {
     "category": "moderation",
     "name": "assenza",
     "description": "Registra un assenza staff, mandando un embed nel canale dove si esegue il comando",
     "options": []
   },
-      {
+  {
     "category": "moderation",
     "name": "sanziones",
     "description": "Applica una sanzione a uno staffer, manda un embed nel canale con i dettagli",
     "options": []
   },
-        {
+  {
     "category": "moderation",
     "name": "rimuovisanzione",
     "description": "Rimuove la sanzione applicata a un utente, rimuove i ruoli e manda un embed nel canale con i dettagli",
     "options": []
   },
-          {
+  {
     "category": "moderation",
     "name": "rimuovisanzionestaff",
     "description": "Rimuove la sanzione applicata a uno staffer, manda un embed nel canale con i dettagli",
     "options": []
   },
-    {
+  {
     "category": "moderation",
     "name": "bandomod",
     "description": "Apre un modal per inviare la candidatura come staff twitch, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
     "options": []
   },
-      {
+  {
     "category": "moderation",
     "name": "bandostaff",
     "description": "Apre un modal per inviare la candidatura come staff, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
     "options": []
   },
-        {
+  {
     "category": "moderation",
     "name": "bandotwitch",
     "description": "Apre un modal per inviare la candidatura come streamer partner, sistema completo con accettazione o rifiuto da parte di uno staff cona aggiunta ruolo, dm e messaggio nel canale dedicato",
     "options": []
   },
-    {
+  {
     "category": "moderation",
     "name": "listastaff",
     "description": "Mostra la lista staff del server, specificando. Ruolo - Tag User - Nome Utente",
@@ -239,13 +287,13 @@
     "description": "Mostra i warn di un utente",
     "options": []
   },
-    {
+  {
     "category": "moderation",
     "name": "ricorso",
     "description": "Invia un ricorso per un ban, l'utente dovrà compilare un modulo una volta che ha eseguito il comando",
     "options": []
   },
-      {
+  {
     "category": "moderation",
     "name": "assistenza",
     "description": "Invia un embed per richiedere assistenza ad uno staff del server",
