@@ -11,6 +11,18 @@
     "description": "Se hai bisogno di aiuto per comandi, funzioni e tanto altro",
     "options": []
   },
+      {
+    "category": "community",
+    "name": "server-stats",
+    "description": "Crea i canali con il count dei membri e di alcuni ruoli impostati",
+    "options": []
+  },
+      {
+    "category": "community",
+    "name": "twitch-community",
+    "description": "Aggiunge, rimuove o mostra la lista di utenti registrati nel sistema di notifica live del server",
+    "options": []
+  },
   {
     "category": "dev",
     "name": "devcoins",
