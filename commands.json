@@ -176,7 +176,25 @@
   {
     "category": "moderation",
     "name": "ban",
-    "description": "Banna un utente",
+    "description": "Banna un utente, scegli se espellerlo dal server o applicare solo dei ruoli, puoi anche scrivere la motivazione del ban",
+    "options": []
+  },
+    {
+    "category": "moderation",
+    "name": "unban",
+    "description": "Rimuovi i ruoli o il ban dal server di un utente, puoi scegliere se rimuovere io ban dal server per far rientrare l'utente",
+    "options": []
+  },
+      {
+    "category": "moderation",
+    "name": "ban-twitch",
+    "description": "Registra il ban di un utente su Twitch, puoi anche aggiungere un motivo",
+    "options": []
+  },
+        {
+    "category": "moderation",
+    "name": "unban-twitch",
+    "description": "Registra la revoca di un ban su Twitch",
     "options": []
   },
     {
