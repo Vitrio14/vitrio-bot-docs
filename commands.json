@@ -354,12 +354,6 @@
     "options": []
   },
   {
-    "category": "twitch",
-    "name": "link",
-    "description": "Collega account esterni al tuo profilo Discord",
-    "options": []
-  },
-  {
     "category": "utility",
     "name": "avatar",
     "description": "Mostra il tuo avatar o quello di un utente",
