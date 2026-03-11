@@ -185,6 +185,12 @@
     "description": "Rimuovi i ruoli o il ban dal server di un utente, puoi scegliere se rimuovere io ban dal server per far rientrare l'utente",
     "options": []
   },
+    {
+    "category": "twitch",
+    "name": "link",
+    "description": "Collega account esterni al tuo profilo Discord",
+    "options": []
+  },
       {
     "category": "moderation",
     "name": "ban-twitch",
