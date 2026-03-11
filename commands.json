@@ -360,12 +360,6 @@
     "options": []
   },
   {
-    "category": "twitch",
-    "name": "live",
-    "description": "Mostra lo stato della live Twitch",
-    "options": []
-  },
-  {
     "category": "utility",
     "name": "avatar",
     "description": "Mostra il tuo avatar o quello di un utente",
